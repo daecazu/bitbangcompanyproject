@@ -37,7 +37,7 @@
   font-weight: 700;
   src: local('Roboto Bold'), local('Roboto-Bold'), url(../public/fonts/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
 }
-.daniel { background-color: lightblue;} 
+
 .body-bg-3 { background: url("/images/patterns/squairy-light.png") repeat }
 .body-bg-4 { background: url("/images/patterns/dark-dotted.png") repeat }
 .body-bg-5 { background: url("/images/patterns/skulls.png") repeat }
@@ -57,7 +57,7 @@ em { font-style: italic }
 strong { font-weight: 700 }
 small { font-size: 85% }
 p { line-height: 22px; margin-bottom: 10px }
-a { color: #333; cursor: pointer }
+a { color: #333; cursor: pointer; text-decoration: none}
 a:hover { color: #3498db; text-decoration: none; -o-transition: .3s; -ms-transition: .3s; -moz-transition: .3s; -webkit-transition: .3s; transition: .35s }
 hr { margin: 15px 0; border-color: #e0eded }
 hr.delimiter { background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.2), transparent); background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent); border: 0; height: 1px; margin: 22px 0 22px 0 }
@@ -359,7 +359,7 @@ header .navbar-fixed .navbar { width: 100% }
 .page-header { margin: 0; border: 0 }
 .page-header p { font-size: 16px }
 .wp-block { margin: 0 0 15px 0; -webkit-transition: all .3s linear; transition: all .3s linear; position: relative; cursor: default; border-radius: 2px }
-.wp-block:before, .wp-block:after { display: table; content: "submit" }
+.wp-block:before, .wp-block:after { display: table; } /* { display: table; content: "submit" }*/
 .wp-block:after { clear: both }
 .wp-section:before, .w-section:after { display: table; content: "\f107" }
 .wp-section:after { clear: both }
