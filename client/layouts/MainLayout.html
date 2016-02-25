@@ -1,12 +1,6 @@
 <template name="MainLayout">
-	<header>
-		{{> loginButtons}}
-	</header>
-	<main>
+	{{>boomerangNavbar}}
+	<main class="main-layout">
 		{{> Template.dynamic template=main}}
 	</main>
-</template>
-
-<template name="Test">
-	Hello!
 </template>

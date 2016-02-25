@@ -1,8 +1,48 @@
-.body-bg-3 { background: url("../images/patterns/squairy-light.png") repeat }
-.body-bg-4 { background: url("../images/patterns/dark-dotted.png") repeat }
-.body-bg-5 { background: url("../images/patterns/skulls.png") repeat }
-.body-bg-6 { background: url("../images/backgrounds/full-bg-10.jpg") no-repeat fixed }
-.body-bg-7 { background: url("../images/backgrounds/full-bg-3.jpg") no-repeat fixed }
+@import url(animate/animate.css);
+@import url(social-buttons/css/rrssb.css);
+@import url(easy-pie-chart/css/easypiechart.css);
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(../public/fonts/hATKpv8nLYAKUYexo8iqqrg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(../public/fonts/0XxGQsSc1g4rdRdjJKZrNPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Sans Italic'), local('PTSans-Italic'), url(../public/fonts/PIPMHY90P7jtyjpXuZ2cLFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(../public/fonts/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(../public/fonts/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(../public/fonts/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+.daniel { background-color: lightblue;} 
+.body-bg-3 { background: url("/images/patterns/squairy-light.png") repeat }
+.body-bg-4 { background: url("/images/patterns/dark-dotted.png") repeat }
+.body-bg-5 { background: url("/images/patterns/skulls.png") repeat }
+.body-bg-6 { background: url("/images/backgrounds/full-bg-10.jpg") no-repeat fixed }
+.body-bg-7 { background: url("/images/backgrounds/full-bg-3.jpg") no-repeat fixed }
 iframe { border: 0;
 margin-top: 0 !important }
 h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif }
